@@ -2,5 +2,7 @@
 #define MAIN_H
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdarg.h>
 int _putchar(char);
+void printf(char *format, ...);
 #endif
