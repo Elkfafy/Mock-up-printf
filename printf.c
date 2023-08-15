@@ -3,7 +3,7 @@
  * printf - printf function
  * @format: input format string
  */
-void printf(char *format, ...)
+void _printf(char *format, ...)
 {
 	va_list args;
 
@@ -14,7 +14,7 @@ void printf(char *format, ...)
 		{
 			case D:
 			case d:
-				print_num(va_arg(args, int));
+				print_number(va_arg(args, int));
 				break;
 			case C:
 			case c:
