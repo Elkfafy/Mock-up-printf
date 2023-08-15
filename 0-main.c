@@ -9,7 +9,7 @@ int main(void)
 {
 	int input;
 
-	print_number(INT_MIN);
+	_printf("d", INT_MIN);
 	while(scanf("%d", &input))
 		print_number(input);
 	return (0);
